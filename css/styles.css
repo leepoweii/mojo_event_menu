@@ -1,0 +1,185 @@
+/* General styles */
+body {
+    font-family: 'Noto Sans TC', Arial, sans-serif;
+    background-color: white;
+    background-size: auto;
+    color: #3f2e2d;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px; /* Base font size increased */
+}
+
+/* Header styling */
+/* Header styling */
+/* Header styling */
+header {
+    background-color: #B31B1B;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.language-switch {
+    display: flex;
+    gap: 10px; /* Spacing between the buttons */
+}
+
+.language-switch button {
+    background-color: #3f2e2d;
+    color: white;
+    border: none;
+    padding: 10px 15px; /* Adjusted padding for smaller text */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px; /* Font size set to 12px */
+    flex: 1; /* Ensure buttons take up equal space */
+    min-width: 60px; /* Ensure buttons have a minimum width */
+    max-width: 100px; /* Ensure buttons don't get too large */
+    text-align: center;
+}
+
+.language-switch button:hover {
+    background-color: #B31B1B;
+    color: white;
+}
+
+/* Main content styling */
+main {
+    flex-grow: 1;
+    padding: 20px;
+    padding-bottom: 60px; /* Add space at the bottom to prevent overlap */
+}
+
+/* Event header styling */
+#event-header h2 {
+    font-size: 36px; /* Increased font size */
+    color: #B31B1B;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Cocktail menu styling */
+#cocktail-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.cocktail {
+    background-color: #Faf9f6;
+    border: 2px solid #3f2e2d;
+    padding: 20px; /* Increased padding */
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px; /* Fixed height for larger screens */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+.cocktail-content {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.cocktail-content h2 {
+    color: #B31B1B;
+    margin-bottom: 10px; /* Increased margin */
+    font-size: 24px; /* Increased font size */
+}
+
+.cocktail-content p {
+    margin-top: 5px;
+    color: #3f2e2d;
+    font-size: 18px; /* Increased font size */
+}
+
+.cocktail img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Event details styling */
+.event-details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px; /* Increased padding */
+    border: 2px solid #3f2e2d;
+    border-radius: 10px;
+    background-color: #Faf9f6;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    font-size: 18px; /* Increased font size */
+}
+
+/* Footer styling */
+footer {
+    background-color: #3f2e2d;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Increased padding */
+    font-size: 18px; /* Increased font size */
+    flex-shrink: 0;
+}
+
+/* Footer warning styling */
+.footer-warning {
+    position: fixed; /* Fixes the position on the screen */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999; /* Ensures it's on top of other elements */
+    background-color: black; /* Ensure background color matches the image */
+    text-align: center; /* Center the image */
+    padding: 10px 0;
+}
+
+.footer-warning img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    #cocktail-menu {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+
+    .cocktail {
+        height: auto; /* Allow flexible height on smaller screens */
+        padding: 20px;
+        flex-direction: column; /* Stack content vertically on smaller screens */
+        align-items: flex-start;
+    }
+
+    .cocktail img {
+        margin-top: 10px;
+        width: 100%; /* Make the image full width on mobile */
+        height: auto;
+    }
+}
