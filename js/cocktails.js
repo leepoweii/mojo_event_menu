@@ -39,9 +39,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         .join("")}
                   </ol>
                   <h4>${data.rules.event_time.title}</h4>
-                  <p>${data.rules.event_time.time}<br>${
-          data.rules.event_time.note
-        }</p>
+                  <ul><li>${data.rules.event_time.time}</li>
+                  <li>${data.rules.event_time.note}</li></ul>
                   <h4>${data.rules.event_rules.title}</h4>
                   <ol>
                       ${data.rules.event_rules.rules
