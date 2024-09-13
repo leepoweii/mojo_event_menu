@@ -9,51 +9,47 @@ document.addEventListener("DOMContentLoaded", () => {
         // Load event header
         const eventHeader = document.getElementById("event-header");
         eventHeader.innerHTML = `<h2>${data.event_header.header}</h2>`;
+
         // Load cocktail menu
         const cocktailMenu = document.getElementById("cocktail-menu");
         cocktailMenu.innerHTML = ""; // Clear previous content
-
         data.cocktails.forEach((cocktail) => {
           const cocktailDiv = document.createElement("div");
           cocktailDiv.className = "cocktail";
           cocktailDiv.innerHTML = `
-                      <div class="cocktail-content">
-                          <h2 class="cocktail-name">${cocktail.name}</h2>
-                          <p class="cocktail-ingredients">${cocktail.ingredients}</p>
-                      </div>
-                      <div class="cocktail-image">
-                          <img src="img/${cocktail.photo}" alt="${cocktail.name}">
-                      </div>
-                  `;
+            <div class="cocktail-content">
+              <h2 class="cocktail-name">${cocktail.name}</h2>
+              <p class="cocktail-ingredients">${cocktail.ingredients}</p>
+            </div>
+            <div class="cocktail-image">
+              <img src="img/${cocktail.photo}" alt="${cocktail.name}">
+            </div>
+          `;
           cocktailMenu.appendChild(cocktailDiv);
         });
 
         // Load event details
         const eventDetails = document.querySelector(".event-details");
         eventDetails.innerHTML = `
-                  <h3>${data.rules.header}</h3>
-                  <h4>${data.rules.drink_order_process.title}</h4>
-                  <ol>
-                      ${data.rules.drink_order_process.steps
-                        .map((step) => `<li>${step}</li>`)
-                        .join("")}
-                  </ol>
-                  <h4>${data.rules.event_time.title}</h4>
-                  <ul><li>${data.rules.event_time.time}</li>
-                  <li>${data.rules.event_time.note}</li></ul>
-                  <h4>${data.rules.event_rules.title}</h4>
-                  <ol>
-                      ${data.rules.event_rules.rules
-                        .map((rule) => `<li>${rule}</li>`)
-                        .join("")}
-                  </ol>
-                  <h4>${data.rules.rewards.title}</h4>
-                  <ul>
-                      ${data.rules.rewards.rewards
-                        .map((reward) => `<li>${reward}</li>`)
-                        .join("")}
-                  </ul>
-              `;
+          <h3>${data.rules.header}</h3>
+          
+          <h4>${data.rules.event_rules.title}</h4>
+          <ol>
+            ${data.rules.event_rules.rules
+              .map((rule) => `<li>${rule}</li>`)
+              .join("")}
+          </ol>
+          
+          <h4>${data.rules.drink_order_process.title}</h4>
+          <ol>
+            ${data.rules.drink_order_process.steps
+              .map((step) => `<li>${step}</li>`)
+              .join("")}
+          </ol>
+          
+          <h4>${data.rules.disclaimer.title}</h4>
+          <p>${data.rules.disclaimer.content.join("</p><p>")}</p>
+        `;
       })
       .catch((error) => console.error("Error loading content:", error));
   };
