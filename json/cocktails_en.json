@@ -1,16 +1,16 @@
 {
   "event_header": {
-    "header": "Call to Arms: Big Ice Challenge"
+    "header": "Call to Arms"
   },
   "cocktails": [
     {
-      "name": "Gin Tonic",
-      "ingredients": "Gordon's Gin, Tonic water",
+      "name": "Gin and Tonic",
+      "ingredients": "Gordon's Gin, Tonic Water",
       "photo": "ginTonic.jpg"
     },
     {
       "name": "Whiskey Highball",
-      "ingredients": "Jim Beam Bourbon Whiskey, Soda water",
+      "ingredients": "Jim Beam Bourbon Whiskey, Soda Water",
       "photo": "whiskeyHighball.jpg"
     },
     {
@@ -19,49 +19,61 @@
       "photo": "moscowMule.jpg"
     },
     {
-      "name": "Jack n' Coke",
-      "ingredients": "Jack Daniel's Tennessee Whiskey, Lime, Coca cola",
+      "name": "JD and Coke",
+      "ingredients": "Jack Daniel's Tennessee Whiskey, Lime, Coca-Cola",
       "photo": "jdCoke.jpg"
     },
     {
       "name": "Cuba Libre",
-      "ingredients": "Goslings Black Seal Rum, Lime, Coca cola",
+      "ingredients": "Gosling's Black Seal Rum, Lime, Coca-Cola",
       "photo": "cubaLibre.jpg"
     },
     {
-      "name": "Dark n Stormy",
-      "ingredients": "Goslings Black Seal Rum, Lime, Thomas Henry Ginger Beer",
+      "name": "Dark 'n' Stormy",
+      "ingredients": "Gosling's Black Seal Rum, Lime, Thomas Henry Ginger Beer",
+      "photo": "darkNStormy.jpg"
+    },
+    {
+      "name": "Coca-Cola",
+      "ingredients": "Burps that reach the skies, it’s laughter in disguise",
+      "photo": "darkNStormy.jpg"
+    },
+    {
+      "name": "Tonic Water",
+      "ingredients": "Bitter-sour brew, makes your taste buds skew",
+      "photo": "darkNStormy.jpg"
+    },
+    {
+      "name": "Soda Water",
+      "ingredients": "“Bubbles that pop, a fizzy nonstop",
       "photo": "darkNStormy.jpg"
     }
   ],
   "rules": {
-    "header": "Call to Arms: Big Ice Challenge",
-    "title": "Challenge Event Rules",
-    "drink_order_process": {
-      "title": "How to Order",
-      "steps": [
-        "Use the special event drink menu.",
-        "The challenge starts from the moment your first drink is served and ends when the ice completely melts (no ice refills)."
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": [
+        "Participants are responsible for managing their own alcohol consumption and drinking responsibly.",
+        "Our establishment provides advice and service for moderate drinking only. Customers are fully responsible for their own drinking behavior.",
+        "The bar is not liable for any discomfort or other consequences resulting from excessive drinking.",
+        "MOJO Bar reserves the right to determine if a customer’s alcohol service needs to be discontinued to ensure the safety of the customer and others.",
+        "Customers are encouraged to drink responsibly and avoid driving after drinking.",
+        "We offer taxi-calling services to ensure your safety.",
+        "MOJO Bar promotes responsible and enjoyable drinking experiences. Please follow drinking regulations.",
+        "Ensure your own and others' safety and health."
       ]
-    },
-    "event_time": {
-      "title": "Event Time",
-      "time": "Daily 19:30 - 22:30",
-      "note": "No new challenges accepted after 22:30."
     },
     "event_rules": {
       "title": "Event Rules",
       "rules": [
-        "Participants must wait until the ice has completely melted before ordering a new drink. We will prioritize refills, but the timing will depend on the bar’s workload. It is recommended to participate on weekdays.",
-        "The duration of the challenge will be judged by the bartender based on the ice melting. The bar reserves the right to the final interpretation.",
-        "The challenge must be completed individually. Sharing drinks with others during the challenge will result in disqualification, and no refunds will be provided."
-      ]
-    },
-    "rewards": {
-      "title": "The Prize",
-      "rewards": [
-        "Total Volume Champion: The participant who drinks the most during the event → Receives one free drink from the special menu each day during the specified period.",
-        "Single Round Champion: The participant who drinks the most with a single ice cube → Receives drink vouchers equivalent to the number of drinks consumed, valid until the end of the year."
+        "Only those with a 19:30 reservation can participate.",
+        "Minors are prohibited from drinking. The bar will verify IDs, and minors can only enjoy non-alcoholic beverages.",
+        "After selecting your first drink from the event menu, you may get unlimited refills from the event menu items until the ice fully melts.",
+        "No refills are allowed after the ice has completely melted, as determined by the bartender in charge that day.",
+        "The challenge must be completed individually, and sharing drinks with others is prohibited. Violators will be charged at full price.",
+        "To protect the integrity of the challenge, participants refilling drinks will be given priority service, but please be patient as preparation time is still required.",
+        "Each person is limited to participating once per day. If it's not enough, come back for more another day!",
+        "MOJO Bar reserves the right for final interpretation of all rules."
       ]
     }
   }

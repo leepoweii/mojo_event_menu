@@ -31,24 +31,19 @@ document.addEventListener("DOMContentLoaded", () => {
         // Load event details
         const eventDetails = document.querySelector(".event-details");
         eventDetails.innerHTML = `
-          <h3>${data.rules.header}</h3>
+          <h3>${data.rules.disclaimer.title}</h3>
+          <ul>
+            ${data.rules.disclaimer.content
+              .map((item) => `<li>${item}</li>`)
+              .join("")}
+          </ul>
           
-          <h4>${data.rules.event_rules.title}</h4>
-          <ol>
+          <h3>${data.rules.event_rules.title}</h3>
+          <ul>
             ${data.rules.event_rules.rules
               .map((rule) => `<li>${rule}</li>`)
               .join("")}
-          </ol>
-          
-          <h4>${data.rules.drink_order_process.title}</h4>
-          <ol>
-            ${data.rules.drink_order_process.steps
-              .map((step) => `<li>${step}</li>`)
-              .join("")}
-          </ol>
-          
-          <h4>${data.rules.disclaimer.title}</h4>
-          <p>${data.rules.disclaimer.content.join("</p><p>")}</p>
+          </ul>
         `;
       })
       .catch((error) => console.error("Error loading content:", error));
