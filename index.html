@@ -3,50 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOJO 老兵召集令：大冰挑戰</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GQ84K6JV3E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-GQ84K6JV3E');
-</script>
+    <title>老冰召集令</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/15mm_logo_vertical_white_all.png" alt="MOJO Bar Logo" class="logo-img">
+    <div id="agreement-popup" class="agreement-popup">
+        <div class="agreement-content">
+            <h1>消費同意書</h1>
+            <ul id="agreement-message">
+                <!-- This will be populated with agreement terms from JSON -->
+            </ul>
+            <button id="agree-button">同意</button>
         </div>
-        <div class="language-switch">
-            <button id="lang-en">En</button>
-            <button id="lang-zh">中</button>
-        </div>
-    </header>
-    <main>
-        <!-- Event Header -->
-        <div id="event-header">
-            <!--Event header will go here -->
-        </div>
-    
-        <!-- Cocktail Menu -->
-        <div id="cocktail-menu">
-            <!-- Cocktail items will go here -->
-        </div>
-    
-        <!-- Event Details -->
-        <div class="event-details">
-            <!-- Event rules content goes here -->
-        </div>
-    </main>
-    <footer>
-    <div class="footer-warning">
-        <img src="img/footer-warning.png" alt="禁止酒駕，酒後不開車，安全有保障">
     </div>
-    </footer>
-    <script src="js/cocktails.js"></script>
+
+    <div id="main-content" class="hidden">
+        <!-- This is your main content (menu, etc.) which will be shown after agreement -->
+        <section class="cocktail-section">
+            <div class="cocktail-grid">
+                <!-- Example Cocktail Item -->
+                <div class="cocktail-item">
+                    <img src="img/ginTonic.jpg" alt="Gin Tonic">
+                    <h2 class="cocktail-name">Gin Tonic</h2>
+                    <p class="cocktail-ingredients">Gin, Tonic Water, Lime</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Fetch JSON data
+            fetch('event.json')
+                .then(response => response.json())
+                .then(data => {
+                    const agreementMessage = data.agreement.message;
+                    const messageList = document.getElementById('agreement-message');
+
+                    // Populate the agreement message from JSON
+                    agreementMessage.forEach(message => {
+                        const li = document.createElement('li');
+                        li.textContent = message;
+                        messageList.appendChild(li);
+                    });
+
+                    // Handle the "Agree" button click
+                    document.getElementById('agree-button').addEventListener('click', function() {
+                        document.getElementById('agreement-popup').style.display = 'none';
+                        document.getElementById('main-content').classList.remove('hidden');
+                    });
+                });
+        });
+    </script>
 </body>
 </html>

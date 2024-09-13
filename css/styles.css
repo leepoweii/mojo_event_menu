@@ -61,7 +61,7 @@ header {
 main {
     flex-grow: 1;
     padding: 20px;
-    padding-bottom: 80px; /* Add space at the bottom to prevent overlapping with footer warning*/
+    padding-bottom: 80px; /* Add space at the bottom to prevent overlapping with footer warning */
 }
 
 /* Event header styling */
