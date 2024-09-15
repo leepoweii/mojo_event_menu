@@ -64,7 +64,7 @@ main {
 }
 
 .link-button:hover {
-    background-color: #C93E2E;
+    background-color: #8E1515;
 }
 
 h2 {
@@ -165,7 +165,7 @@ h2 {
 }
 
 .age-verification-modal button {
-    background-color: #B31B1B;
+    background-color: #C93E2E;
     color: white;
     padding: 10px 20px;
     border: none;
