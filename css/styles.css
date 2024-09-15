@@ -95,20 +95,16 @@ body {
 
 /* Header styling */
 header {
-    background-color: #C93E2E;
+    text-align: center;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    padding: 10px;
+    background-color: #C93E2E;
+    color: white;
 }
 
 .logo-img {
-    width: 150px;
+    width: 80px;
     height: auto;
+    margin-bottom: 0px;
 }
 
 main {
