@@ -3,48 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MOJO Bar - 老冰召集令</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>MOJO Bar - Welcome</title>
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <!-- Agreement Popup -->
-    <div id="age-verification" class="age-verification-overlay">
-        <div class="age-verification-modal">
-            <h2>消費同意書</h2>
-            <ol>
-                <li>未成年請勿飲酒，未成年請勿飲酒，未成年請勿飲酒</li>
-                <li>本店將查驗身分證，未成年者僅可享用無酒精飲品。</li>
-                <li>活動保障兩杯飲品，若第一杯尚未喝完就融完，可拿空杯再換取新的一杯！</li>
-                <li>你是冰塊的主人，不是它的奴隸，跟著自己的節奏！</li>
-                <li>如果感到不適或想吐，請立即告知店員，我們將引領你前往“水溝神”的庇護之地！</li>
-                <li>適量為樂，過度為禍，保持理智喝到開心。</li>
-                <li>喝酒不開車，開車不喝酒，本店提供代叫計程車服務！</li>
-            </ol>
-            <button id="verify-age">我已確認冰塊狀況良好<br/>同意以上注意事項</button>
+    <header>
+        <div class="logo">
+            <img src="img/15mm_logo_white_all.png" alt="MOJO Bar Logo" class="logo-img">
         </div>
-    </div>
+    </header>
 
-    <!-- Main Website Content (Always visible) -->
-    <div id="main-content" class="main-content">
-        <header>
-            <div class="logo">
-                <img src="img/15mm_logo_vertical_white_all.png" alt="MOJO Bar Logo" class="logo-img">
+    <main>
+        <section id="quick-links">
+            <!-- Menu Button -->
+            <div class="link-button">
+                <a href="call-to-arms.html" target="_blank">活動菜單</a>
             </div>
-        </header>
-        <main>
-            <div id="event-header"></div>
-            <div id="cocktail-menu"></div>
-            <div class="event-details"></div>
-        </main>
-        <footer>
-            <div class="footer-warning">
-                <img src="img/footer-warning.png" alt="Drink Responsibly">
+            <!-- Reservation Button -->
+            <div class="link-button">
+                <a href="https://inline.app/booking/MOJO" target="_blank">馬上訂位</a>
             </div>
-        </footer>
-    </div>
+            <!-- Official Line Account Button -->
+            <div class="link-button">
+                <a href="https://line.me/R/ti/p/%40mojokm" target="_blank">Line 官方帳號</a>
+            </div>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://instagram.com/mojokm" target="_blank">
+                    <img src="img/instagram-icon.png" alt="Instagram">
+                </a>
+                <a href="https://facebook.com/mojokm" target="_blank">
+                    <img src="img/facebook-icon.png" alt="Facebook">
+                </a>
+            </div>
 
-    <!-- JavaScript files -->
-    <script src="js/age-verification.js"></script>
-    <script src="js/cocktails.js"></script>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-warning">
+            <img src="img/footer-warning.png" alt="Drink Responsibly">
+        </div>
+    </footer>
 </body>
 </html>

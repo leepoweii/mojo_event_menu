@@ -1,3 +1,32 @@
+/* Link buttons */
+#linktree-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.link-button {
+    margin: 10px 0;
+}
+
+.link-button a {
+    display: inline-block;
+    background-color: #B31B1B;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.link-button a:hover {
+    background-color: #8E1515;
+}
+
+h2 {
+    font-size: 28px;
+    color: #3f2e2d;
+}
+
 /* Age verification overlay */
 .age-verification-overlay {
     position: fixed;
@@ -33,7 +62,7 @@
 
 .age-verification-modal ol li {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .age-verification-modal button {
@@ -82,28 +111,6 @@ header {
     height: auto;
 }
 
-.language-switch {
-    display: flex;
-    gap: 10px;
-}
-
-.language-switch button {
-    background-color: #3f2e2d;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 12px;
-    min-width: 60px;
-    max-width: 100px;
-    text-align: center;
-}
-
-.language-switch button:hover {
-    background-color: #B31B1B;
-}
-
 main {
     flex-grow: 1;
     padding: 20px;
@@ -117,6 +124,7 @@ main {
     margin-top: 20px;
 }
 
+/* Cocktail menu grid */
 #cocktail-menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -162,18 +170,9 @@ main {
     font-size: 18px;
 }
 
-footer {
-    background-color: #3f2e2d;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 18px;
-    flex-shrink: 0;
-}
-
-/* Footer warning styling - always visible at the bottom */
+/* Footer warning styling */
 .footer-warning {
-    position: fixed; /* Make footer fixed at the bottom of the screen */
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -181,7 +180,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    z-index: 10000; /* Ensure it's always on top of other elements */
+    z-index: 10000;
 }
 
 .footer-warning img {
@@ -189,20 +188,51 @@ footer {
     height: auto;
 }
 
-/* Responsive styling */
+/* Responsive styling for mobile view */
 @media (max-width: 768px) {
     #cocktail-menu {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Change to a single column layout */
     }
 
     .cocktail {
+        flex-direction: column; /* Stack content vertically */
         height: auto;
-        flex-direction: column;
         align-items: flex-start;
     }
 
     .cocktail img {
         margin-top: 10px;
-        width: 100%;
+        width: 100%; /* Ensure image takes full width on mobile */
+    }
+
+    #event-header h2 {
+        font-size: 28px; /* Reduce header font size for mobile */
+    }
+
+    .cocktail-content h2 {
+        font-size: 20px; /* Reduce cocktail name size */
+    }
+
+    .cocktail-content p {
+        font-size: 16px; /* Reduce ingredient text size */
+    }
+
+    .event-details {
+        font-size: 16px; /* Make event details font smaller for mobile */
+    }
+
+    .age-verification-modal {
+        padding: 20px;
+        font-size: 14px; /* Ensure mobile readability */
+    }
+
+    .age-verification-modal button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 16px;
+        padding: 10px;
     }
 }
