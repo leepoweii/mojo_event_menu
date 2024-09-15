@@ -36,17 +36,17 @@
     {
       "name": "Coca-Cola</br>可口可樂",
       "ingredients": "喉嚨借過，瞬間擁有 ‘嗝’ 功夫</br>Burps that reach the skies, it’s laughter in disguise",
-      "photo": "darkNStormy.jpg"
+      "photo": "cocaCola.jpg"
     },
     {
       "name": "Tonic Water</br>通寧汽水",
       "ingredients": "酸酸苦苦的滋味，苦中作樂的極致</br>Bitter-sour brew, makes your taste buds skew",
-      "photo": "darkNStormy.jpg"
+      "photo": "tonicWater.jpg"
     },
     {
       "name": "Soda Water</br>蘇打汽水",
       "ingredients": "簡單純粹的氣泡，舌尖上的泡泡浴</br>Bubbles that pop, a fizzy nonstop",
-      "photo": "darkNStormy.jpg"
+      "photo": "sodaWater.jpg"
     }
   ],
   "rules": {
