@@ -6,14 +6,32 @@
     <title>夢酒館 MOJO</title>
     <link rel="stylesheet" href="css/home.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GQ84K6JV3E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GQ84K6JV3E');
+</script>
 <body>
     <header>
         <div class="logo">
                 <img src="img/15mm_logo_white_all.png" alt="MOJO Bar Logo" class="logo-img">
         </div>
+        
     </header>
 
     <main>
+        <!-- Age Verification Modal -->
+        <div class="age-verification-overlay" id="age-verification">
+            <div class="age-verification-modal">
+                <h2>確認您的年齡</h2>
+                <p>飲酒需符合法定年齡限制，請確認您已年滿法定飲酒年齡。</p>
+                <button id="confirm-age">我已年滿法定年齡</button>
+            </div>
+        </div>
         <section id="quick-links">
             <!-- Menu Button -->
             <div class="link-button">
@@ -43,7 +61,13 @@
     <footer>
         <div class="footer-warning">
             <img src="img/footer-warning.png" alt="Drink Responsibly">
+            
         </div>
     </footer>
+    <script>
+        document.getElementById('confirm-age').addEventListener('click', function() {
+            document.getElementById('age-verification').style.display = 'none';
+        });
+    </script>
 </body>
 </html>

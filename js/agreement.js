@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const ageVerificationOverlay = document.getElementById("age-verification");
-  const verifyAgeButton = document.getElementById("verify-age");
+  const ageVerificationOverlay = document.getElementById("agreement");
+  const verifyAgeButton = document.getElementById("agreed");
 
   verifyAgeButton.addEventListener("click", () => {
     // 隱藏年齡驗證彈出框
