@@ -4,48 +4,48 @@
   },
   "cocktails": [
     {
-      "name": "琴通寧",
-      "ingredients": "高登琴酒, 通寧水",
+      "name": "Gin Tonic</br>琴通寧",
+      "ingredients": "Gordon's Gin, Tonic Water</br>高登琴酒, 通寧水",
       "photo": "ginTonic.jpg"
     },
     {
-      "name": "威士忌海波",
+      "name": "Whiskey Highball</br>威士忌海波",
       "ingredients": "金賓波本威士忌, 蘇打水",
       "photo": "whiskeyHighball.jpg"
     },
     {
-      "name": "莫斯科騾子",
-      "ingredients": "SKYY 伏特加, 萊姆, 湯瑪士亨利辣薑汁汽水",
+      "name": "Moscow Mule</br>莫斯科騾子",
+      "ingredients": "SKYY 伏特加, 萊姆, 湯瑪士亨利辣薑汁汽水</br>SKYY Vodka, Lime, Thomas Henry Ginger Beer",
       "photo": "moscowMule.jpg"
     },
     {
-      "name": "JD可樂",
-      "ingredients": "傑克丹尼爾田納西威士忌, 萊姆, 可口可樂",
+      "name": "JD Coke</br>JD可樂",
+      "ingredients": "傑克丹尼爾田納西威士忌, 萊姆, 可口可樂</br>Jack Daniel's Tennessee Whiskey, Lime, Coke",
       "photo": "jdCoke.jpg"
     },
     {
-      "name": "自由古巴",
-      "ingredients": "高斯林黑海豹蘭姆酒, 萊姆, 可口可樂",
+      "name": "Cuba Libre</br>自由古巴",
+      "ingredients": "高斯林黑海豹蘭姆酒, 萊姆, 可口可樂</br>Gosling's Black Seal Rum, Lime, Coke",
       "photo": "cubaLibre.jpg"
     },
     {
-      "name": "黑暗暴風",
-      "ingredients": "高斯林黑海豹蘭姆酒, 萊姆, 湯瑪士亨利辣薑汁汽水",
+      "name": "Dark n' Stormy</br>黑暗暴風",
+      "ingredients": "高斯林黑海豹蘭姆酒, 萊姆, 湯瑪士亨利辣薑汁汽水</br>Gosling's Black Seal Rum, Lime, Thomas Henry Ginger Beer",
       "photo": "darkNStormy.jpg"
     },
     {
-      "name": "可口可樂",
-      "ingredients": "喉嚨借過，瞬間擁有 ‘嗝’ 功夫",
+      "name": "Coca-Cola</br>可口可樂",
+      "ingredients": "喉嚨借過，瞬間擁有 ‘嗝’ 功夫</br>Burps that reach the skies, it’s laughter in disguise",
       "photo": "darkNStormy.jpg"
     },
     {
-      "name": "通寧汽水",
-      "ingredients": "酸酸苦苦的滋味，苦中作樂的極致",
+      "name": "Tonic Water</br>通寧汽水",
+      "ingredients": "酸酸苦苦的滋味，苦中作樂的極致</br>Bitter-sour brew, makes your taste buds skew",
       "photo": "darkNStormy.jpg"
     },
     {
-      "name": "蘇打汽水",
-      "ingredients": "簡單純粹的氣泡，舌尖上的泡泡浴",
+      "name": "Soda Water</br>蘇打汽水",
+      "ingredients": "簡單純粹的氣泡，舌尖上的泡泡浴</br>Bubbles that pop, a fizzy nonstop",
       "photo": "darkNStormy.jpg"
     }
   ],
@@ -66,7 +66,7 @@
     "event_rules": {
       "title": "活動規則",
       "rules": [
-        "活動僅 19:30 訂位者可參加。",
+        "活動僅透過inline系統，訂位19:30者可參加。",
         "未成年請勿飲酒，本店將查驗身分證，未成年者僅可享用無酒精飲品。",
         "此活動保障兩杯飲品，如果第一杯尚未喝完冰塊就消失，可拿空杯再換取新的一杯！",
         "從活動菜單中點選你的第一杯後，可以未融化冰塊的無限續杯活動菜單中的品項，直至冰塊完全溶化為止。",
