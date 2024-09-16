@@ -4,47 +4,47 @@
   },
   "cocktails": [
     {
-      "name": "Gin Tonic</br>琴通寧",
-      "ingredients": "Gordon's Gin, Tonic Water</br>高登琴酒, 通寧水",
+      "name": "琴通寧</br>Gin Tonic",
+      "ingredients": "高登琴酒, 通寧水</br>Gordon's Gin, Tonic Water",
       "photo": "ginTonic.jpg"
     },
     {
-      "name": "Whiskey Highball</br>威士忌海波",
-      "ingredients": "金賓波本威士忌, 蘇打水",
+      "name": "威士忌海波</br>Whiskey Highball",
+      "ingredients": "金賓波本威士忌, 蘇打水<br>Jim Beam Bourbon Whiskey, Soda Water",
       "photo": "whiskeyHighball.jpg"
     },
     {
-      "name": "Moscow Mule</br>莫斯科騾子",
+      "name": "莫斯科騾子</br>Moscow Mule",
       "ingredients": "SKYY 伏特加, 萊姆, 湯瑪士亨利辣薑汁汽水</br>SKYY Vodka, Lime, Thomas Henry Ginger Beer",
       "photo": "moscowMule.jpg"
     },
     {
-      "name": "Jack n' Coke</br>JD可樂",
+      "name": "可樂</br>Jack n' Coke",
       "ingredients": "傑克丹尼爾田納西威士忌, 萊姆, 可口可樂</br>Jack Daniel's Tennessee Whiskey, Lime, Coke",
       "photo": "jdCoke.jpg"
     },
     {
-      "name": "Cuba Libre</br>自由古巴",
+      "name": "自由古巴</br>Cuba Libre",
       "ingredients": "高斯林黑海豹蘭姆酒, 萊姆, 可口可樂</br>Gosling's Black Seal Rum, Lime, Coke",
       "photo": "cubaLibre.jpg"
     },
     {
-      "name": "Dark n' Stormy</br>黑暗暴風",
+      "name": "黑暗暴風</br>Dark n' Stormy",
       "ingredients": "高斯林黑海豹蘭姆酒, 萊姆, 湯瑪士亨利辣薑汁汽水</br>Gosling's Black Seal Rum, Lime, Thomas Henry Ginger Beer",
       "photo": "darkNStormy.jpg"
     },
     {
-      "name": "Coca-Cola</br>可口可樂",
+      "name": "可口可樂</br>Coca-Cola",
       "ingredients": "喉嚨借過，瞬間擁有 ‘嗝’ 功夫</br>Burps that reach the skies, it’s laughter in disguise",
       "photo": "cocaCola.jpg"
     },
     {
-      "name": "Tonic Water</br>通寧汽水",
+      "name": "通寧汽水</br>Tonic Water",
       "ingredients": "酸酸苦苦的滋味，苦中作樂的極致</br>Bitter-sour brew, makes your taste buds skew",
       "photo": "tonicWater.jpg"
     },
     {
-      "name": "Soda Water</br>蘇打汽水",
+      "name": "蘇打汽水</br>Soda Water",
       "ingredients": "簡單純粹的氣泡，舌尖上的泡泡浴</br>Bubbles that pop, a fizzy nonstop",
       "photo": "sodaWater.jpg"
     }
