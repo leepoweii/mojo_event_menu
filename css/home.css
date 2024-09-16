@@ -108,7 +108,7 @@ h2 {
 
 .footer-warning img {
     max-width: 100%;
-    height: 60%;
+    height: auto;
 }
 
 /* Responsive styling for mobile */
