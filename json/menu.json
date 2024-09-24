@@ -4,68 +4,54 @@
   },
   "cocktails": [
     {
-      "name": "十六號 No.16",
+      "name": "十六號</br>No.16",
       "ingredients": "58金門高粱酒/ 水蜜桃/ 血橙/ 芒果/ 百香果/ 鳳梨/ 萊姆 </br> KKL/ Peach/ blood orange/ mango/ passionfruit/ pineapple/ Lime"
     },
     {
-      "name": "謙謙君子 Gentleman",
+      "name": "謙謙君子</br>Gentleman",
       "ingredients": "58金門高粱酒/ 柑橘/ 檸檬/ 迷迭香 </br> 58KKL/ Cointreau/ Lemon/ rosemary"
     },
     {
-      "name": "燕南紅 Rogue of Yanan",
+      "name": "燕南紅</br>Rogue of Yanan",
       "ingredients": "高粱/ 柑橘皮 / 奎寧 / 苦甜 </br> KKL/ Campari / Rosso vermouth / Bitters"
     },
     {
-      "name": "夢雲瀚 Sigur Eyes",
+      "name": "夢雲瀚</br>Sigur Eyes",
       "ingredients": "蘭姆酒/ 水蜜桃/ 鳳梨/ 覆盆莓/ 萊姆/ 自製檸檬糖 </br> Rum/ Peach/ Pineapple/ Raspberry/ Lime/ Homemade lemon syrup"
     },
     {
-      "name": "神秘香水 Perfume",
+      "name": "神秘香水</br>Perfume",
       "ingredients": "波本威士忌/ 藍莓/ 覆盆莓/ 檸檬/ 薄荷 </br> Bourbon/ Blueberry/ Raspberry/ Lemon/ Mint"
     },
     {
-      "name": "溫蒂公主的前任 Wendy's Ex",
+      "name": "溫蒂公主的前任</br>Wendy's Ex",
       "ingredients": "伯爵茶伏特加/ 蜜李酒/ 通寧水 </br> Earl Grey Vodka/ Prucia/ Tonic Water"
     },
     {
-      "name": "夢筆生花 Bloom Brush",
+      "name": "夢筆生花</br>Bloom Brush",
       "ingredients": "葡萄/ 覆盆莓/ 鳳梨/ 檸檬 </br> Grape/ Raspberry/ Pineapple/ Lemon"
     },
     {
-      "name": "水果泡泡 Bubbles",
+      "name": "水果泡泡</br>Bubbles",
       "ingredients": "即飲果醋/ 蜂蜜/ 氣泡水 </br> Fruit vinegar/ honey/ Sparking Water"
     },
     {
-      "name": "清醒惡魔 Sober Diablo",
+      "name": "清醒惡魔</br>Sober Diablo",
       "ingredients": "脫醇琴酒/ 脱醇紅酒/ 肉桂/ 薑汁汽水 </br> 0% Gin/ 0% Wine/ Cinnammon/ Ginger Beer"
     }
   ],
   "rules": {
-    "disclaimer": {
-      "title": "免責聲明",
-      "content": [
-        "參加本活動的顧客請自行掌握酒量，保持理智飲酒。",
-        "本店僅提供適量飲酒的建議與服務，顧客需對自身飲酒行為負全責。",
-        "若因過量飲酒導致不適或其他後果，本店概不負責。",
-        "夢酒館保留權利判斷並決定是否需要終止顧客的飲酒服務，以保障顧客和其他人的安全。",
-        "請顧客量力而為，飲酒後請勿駕駛。",
-        "本店提供代叫計程車服務以確保您的安全。",
-        "夢酒館鼓勵負責任且愉快的飲酒體驗，請顧客遵守飲酒規範。",
-        "確保自身和他人的安全與健康。"
-      ]
-    },
     "event_rules": {
-      "title": "活動規則",
+      "title": "酒館須知",
       "rules": [
-        "活動僅透過inline系統，訂位19:30者可參加。",
-        "未成年請勿飲酒，本店將查驗身分證，未成年者僅可享用無酒精飲品。",
-        "此活動保障兩杯飲品，如果第一杯尚未喝完冰塊就消失，可拿空杯再換取新的一杯！",
-        "從活動菜單中點選你的第一杯後，可以未融化冰塊的無限續杯活動菜單中的品項，直至冰塊完全溶化為止。",
-        "冰塊完全融化後不可再續杯，由當日吧台負責人進行判斷。",
-        "挑戰僅限個人完成，過程中不可與他人共飲，違者將以原價計費。",
-        "為避免冰塊融化權益受損，續杯者將會安排優先出餐，出餐仍需工作流程時間，請耐心等候。",
-        "每日每人僅限參加一次，不夠過癮的話多來幾天！",
-        "所有規則夢酒館保留最後解釋權。"
+        "<strong>想找廁所在這邊</strong></br>化妝室位於酒館二樓，請小心上下樓梯。請勿踩在馬桶上，馬桶有打蠟，容易滑倒。如有損壞，需照價賠償。",
+        "<strong>寵物友善最貼心</strong></br>本店為寵物友善店家，攜帶寵物時請繫上牽繩或帶籠子，並確保毛寶貝不隨地大小便，且不影響其他客人。",
+        "<strong>最高品質靜悄悄</strong></br>為避免打擾住民休息，十點半之後請降低戶外區域的音量。",
+        "<strong>請帶外食下酒菜</strong></br>因本店位於古蹟特區內，禁止使用明火，因此目前無法提供餐點。您可以在戶外區及包廂區自帶外食搭配調酒。",
+        "<strong>打破杯子莫驚慌</strong></br>若不慎打破杯子，請大喊「碎碎平安！」，並通知我們的夥伴前來清理，同時需支付200元以補償杯子的費用。",
+        "<strong>服務貼心有溫度</strong></br>我們希望您在此能享受愉快且舒適的體驗，重視人與人之間的交流。我們的夥伴會提供優質服務，讓您留下美好的回憶。如有任何不周之處，請提醒我們，您的支持是我們的動力。",
+        "<strong>感謝閱讀與支持</strong></br>感謝您耐心讀完須知，因為不是所有人都會讀完這麼多注意事項，因為有你，我們才可以繼續快樂做夢！謝謝！ ",
+        "<strong>Wi-Fi資訊最方便</strong></br>SSID：MOJO </br> Password：72904511"
       ]
     }
   }

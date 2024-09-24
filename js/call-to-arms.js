@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const jsonFile = "json/cocktails.json"; // Load the default (Chinese) JSON file
+  const jsonFile = "json/call-to-arms.json"; // Load the default (Chinese) JSON file
 
   fetch(jsonFile)
     .then((response) => response.json())
