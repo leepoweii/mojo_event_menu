@@ -3,25 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>夢酒館 MOJO - 飲品菜單</title>
+    <title>夢酒館 MOJO - MENU</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GQ84K6JV3E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GQ84K6JV3E');
+</script>
 <body>
-    <!-- Menu Header -->
-    <div id="event-header"></div>
+    <!-- Agreement Popup -->
+    <div id="agreement" class="agreement-overlay">
+        <div class="agreement-modal">
+            <h2>消費同意書</h2>
+            <ol>
+                <li>未成年請勿飲酒，未成年請勿飲酒，未成年請勿飲酒</li>
+                <li>本店將查驗身分證，未成年者僅可享用無酒精飲品。</li>
+                <li>如果感到不適或想吐，請立即告知店員，我們將引領你前往“水溝神”的庇護之地！</li>
+                <li>適量為樂，過度為禍，保持理智喝到開心。</li>
+                <li>喝酒不開車，開車不喝酒，本店提供代叫計程車服務！</li>
+            </ol>
+            <button id="agreed">我已同意以上注意事項</button>
+        </div>
+    </div>
 
-    <!-- Cocktails Section -->
-    <section id="cocktail-menu">
-        <h2>Cocktails</h2>
-        <div class="cocktails-list"></div>
-    </section>
+    <!-- Main Website Content (Always visible) -->
+    <div id="main-content" class="main-content">
+        <header>
+            <div class="logo">
+                <a href="./">
+                    <img src="img/15mm_logo_white_all.png" alt="MOJO Bar Logo" class="logo-img">
+                </a>
+            </div>
+        </header>
+        <main>
+            <div id="event-header"></div>
+            <div id="cocktail-menu"></div>
+        </main>
+        <footer>
+            <div class="footer-warning">
+                <img src="img/footer-warning.png" alt="Drink Responsibly">
+            </div>
+        </footer>
+    </div>
 
-    <!-- Mocktails Section -->
-    <section id="mocktail-menu">
-        <h2>Mocktails</h2>
-        <div class="mocktails-list"></div>
-    </section>
-
-    <script src="js/menu.js"></script>
+    <!-- JavaScript files -->
+    <script src="js/agreement.js"></script>
+    <script src="js/menu2.js"></script>
 </body>
 </html>
