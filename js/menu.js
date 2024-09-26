@@ -1,38 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const jsonFile = "json/menu.json"; // Load the default (Chinese) JSON file
+  const jsonFile = "json/menu.json"; // Path to your JSON file
 
   fetch(jsonFile)
     .then((response) => response.json())
     .then((data) => {
-      // Load event header
+      // Load Event Header
       const eventHeader = document.getElementById("event-header");
-      eventHeader.innerHTML = `<h2>${data.event_header.header}</h2>`;
+      eventHeader.innerHTML = `<h1>${data.event_header.header}</h1>`;
 
-      // Load cocktail menu
-      const cocktailMenu = document.getElementById("cocktail-menu");
-      cocktailMenu.innerHTML = ""; // Clear previous content
-      data.cocktails.forEach((cocktail) => {
+      // Load Cocktails
+      const cocktailMenu = document.querySelector(".cocktails-list");
+      data.categories.cocktails.forEach((cocktail) => {
         const cocktailDiv = document.createElement("div");
         cocktailDiv.className = "cocktail";
         cocktailDiv.innerHTML = `
-          <div class="cocktail-content">
-            <h2 class="cocktail-name">${cocktail.name}</h2>
-            <p class="cocktail-ingredients">${cocktail.ingredients}</p>
-          </div>
+          <h3 class="cocktail-name">${cocktail.name}</h3>
+          <p class="cocktail-ingredients">${cocktail.ingredients}</p>
         `;
         cocktailMenu.appendChild(cocktailDiv);
       });
 
-      // Load event details
-      const eventDetails = document.querySelector(".event-details");
-      eventDetails.innerHTML = `
-                <h4>${data.rules.event_rules.title}</h4>
-        <ol>
-          ${data.rules.event_rules.rules
-            .map((rule) => `<li>${rule}</li>`)
-            .join("")}
-        </ol>
-      `;
+      // Load Mocktails
+      const mocktailMenu = document.querySelector(".mocktails-list");
+      data.categories.mocktails.forEach((mocktail) => {
+        const mocktailDiv = document.createElement("div");
+        mocktailDiv.className = "mocktail";
+        mocktailDiv.innerHTML = `
+          <h3 class="mocktail-name">${mocktail.name}</h3>
+          <p class="mocktail-ingredients">${mocktail.ingredients}</p>
+        `;
+        mocktailMenu.appendChild(mocktailDiv);
+      });
     })
-    .catch((error) => console.error("Error loading content:", error));
+    .catch((error) => console.error("Error loading menu:", error));
 });

@@ -2,44 +2,48 @@
   "event_header": {
     "header": "MENU"
   },
-  "cocktails": [
-    {
-      "name": "十六號</br>No.16",
-      "ingredients": "58金門高粱酒/ 水蜜桃/ 血橙/ 芒果/ 百香果/ 鳳梨/ 萊姆 </br> KKL/ Peach/ blood orange/ mango/ passionfruit/ pineapple/ Lime"
-    },
-    {
-      "name": "謙謙君子</br>Gentleman",
-      "ingredients": "58金門高粱酒/ 柑橘/ 檸檬/ 迷迭香 </br> KKL/ Cointreau/ Lemon/ rosemary"
-    },
-    {
-      "name": "燕南紅</br>Rogue of Yanan",
-      "ingredients": "58金門高粱酒/ 柑橘皮/ 奎寧/ 苦甜 </br> KKL/ Campari / Rosso vermouth / Bitters"
-    },
-    {
-      "name": "夢雲瀚</br>Sigur Eyes",
-      "ingredients": "蘭姆酒/ 水蜜桃/ 鳳梨/ 覆盆莓/ 萊姆/ 自製檸檬糖 </br> Rum/ Peach/ Pineapple/ Raspberry/ Lime/ Homemade lemon syrup"
-    },
-    {
-      "name": "神秘香水</br>Perfume",
-      "ingredients": "波本威士忌/ 藍莓/ 覆盆莓/ 檸檬/ 薄荷 </br> Bourbon/ Blueberry/ Raspberry/ Lemon/ Mint"
-    },
-    {
-      "name": "溫蒂公主的前任</br>Wendy's Ex",
-      "ingredients": "伯爵茶伏特加/ 蜜李酒/ 通寧水 </br> Earl Grey Vodka/ Prucia/ Tonic Water"
-    },
-    {
-      "name": "夢筆生花</br>Bloom Brush",
-      "ingredients": "葡萄/ 覆盆莓/ 鳳梨/ 檸檬 </br> Grape/ Raspberry/ Pineapple/ Lemon"
-    },
-    {
-      "name": "水果泡泡</br>Bubbles",
-      "ingredients": "即飲果醋/ 蜂蜜/ 氣泡水 </br> Fruit vinegar/ honey/ Sparking Water"
-    },
-    {
-      "name": "清醒惡魔</br>Sober Diablo",
-      "ingredients": "脫醇琴酒/ 脱醇紅酒/ 肉桂/ 薑汁汽水 </br> 0% Gin/ 0% Wine/ Cinnammon/ Ginger Beer"
-    }
-  ],
+  "categories": {
+    "cocktails": [
+      {
+        "name": "十六號</br>No.16",
+        "ingredients": "58金門高粱酒/ 水蜜桃/ 血橙/ 芒果/ 百香果/ 鳳梨/ 萊姆 </br> KKL/ Peach/ blood orange/ mango/ passionfruit/ pineapple/ Lime"
+      },
+      {
+        "name": "謙謙君子</br>Gentleman",
+        "ingredients": "58金門高粱酒/ 柑橘/ 檸檬/ 迷迭香 </br> KKL/ Cointreau/ Lemon/ rosemary"
+      },
+      {
+        "name": "燕南紅</br>Rogue of Yanan",
+        "ingredients": "58金門高粱酒/ 柑橘皮/ 奎寧/ 苦甜 </br> KKL/ Campari / Rosso vermouth / Bitters"
+      },
+      {
+        "name": "夢雲瀚</br>Sigur Eyes",
+        "ingredients": "蘭姆酒/ 水蜜桃/ 鳳梨/ 覆盆莓/ 萊姆/ 自製檸檬糖 </br> Rum/ Peach/ Pineapple/ Raspberry/ Lime/ Homemade lemon syrup"
+      },
+      {
+        "name": "神秘香水</br>Perfume",
+        "ingredients": "波本威士忌/ 藍莓/ 覆盆莓/ 檸檬/ 薄荷 </br> Bourbon/ Blueberry/ Raspberry/ Lemon/ Mint"
+      },
+      {
+        "name": "溫蒂公主的前任</br>Wendy's Ex",
+        "ingredients": "伯爵茶伏特加/ 蜜李酒/ 通寧水 </br> Earl Grey Vodka/ Prucia/ Tonic Water"
+      }
+    ],
+    "mocktails": [
+      {
+        "name": "夢筆生花</br>Bloom Brush",
+        "ingredients": "葡萄/ 覆盆莓/ 鳳梨/ 檸檬 </br> Grape/ Raspberry/ Pineapple/ Lemon"
+      },
+      {
+        "name": "水果泡泡</br>Bubbles",
+        "ingredients": "即飲果醋/ 蜂蜜/ 氣泡水 </br> Fruit vinegar/ honey/ Sparking Water"
+      },
+      {
+        "name": "清醒惡魔</br>Sober Diablo",
+        "ingredients": "脫醇琴酒/ 脱醇紅酒/ 肉桂/ 薑汁汽水 </br> 0% Gin/ 0% Wine/ Cinnammon/ Ginger Beer"
+      }
+    ]
+  },
   "rules": {
     "event_rules": {
       "title": "酒館須知",
